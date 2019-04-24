@@ -1,0 +1,100 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ /* ===========
+  Element Selectors
+  ============= */
+
+nav ul a, nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* ===========
+  Class Selectors
+  ============= */
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  /* height: auto; */
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+/* ===========
+  ID Selectors
+  ============= */
+
+#logo-image {
+  max-height: 64px;
+  height: 64px;
+  width: 64px;
+}
+
+#title-first-name-tag {
+  /* float: left; */
+  position: absolute;
+  bottom: 84.4px;
+  left: 20px;
+}
+
+#title-last-name-tag {
+  /* float: left; */
+  margin-top: 0px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* #title-image-container {
+  position: relative;
+} */
+
+/* ===========
+  MEDIA QUERIES
+  ============= */
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
