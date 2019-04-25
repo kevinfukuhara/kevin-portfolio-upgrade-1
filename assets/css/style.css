@@ -12,7 +12,7 @@
   ============= */
 
 nav ul a, nav .brand-logo {
-  color: #444;
+  color: whitesmoke;
 }
 
 p {
@@ -46,17 +46,20 @@ p {
   /* float: left; */
   margin-top: 0px;
   position: absolute;
-  bottom: 20px;
-  left: 50px;
+  top: 84.4px;
+  right: 50px;
   color: white;
+  font-weight: 320;
 }
 
 .image-overlay-text-line2 {
   /* float: left; */
+  margin-top: 0px;
   position: absolute;
-  bottom: 84.4px;
-  left: 50px;
+  top: 20px;
+  right: 50px;
   color: whitesmoke;
+  font-weight: 320;
 }
 
 .para-image-banner {
@@ -86,11 +89,16 @@ p {
   width: 170px;
   float: right;
   /* align-self: right; */
+  margin: 0px;
 }
 
 /* ===========
   ID Selectors
   ============= */
+
+#nav-navbar {
+  background-color: #444;
+}
 
 #logo-image {
   max-height: 64px;
