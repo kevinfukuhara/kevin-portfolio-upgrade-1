@@ -80,7 +80,7 @@ p {
 }
 
 .project-description {
-  float:left;
+  /* float:left; */
 }
 
 .project-screenshot {
@@ -90,6 +90,30 @@ p {
   float: right;
   /* align-self: right; */
   margin: 0px;
+}
+
+.project-card-large {
+  height: 350px;
+  /* border: 1px solid slategray; */
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 1px 11px;
+}
+
+.project-screenshot-large {
+  /* display: inline-block; */
+  height: 315px;
+  width: 315px;
+  float: right;
+  /* align-self: right; */
+  margin: 17.5px 7.5px 17.5px 15px;
+}
+
+
+.commercial-icon-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
 }
 
 /* ===========
